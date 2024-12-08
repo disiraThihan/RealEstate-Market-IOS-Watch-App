@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE2EBE12C17AB2D007B4345 /* RealStateMarket Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDE2EBE02C17AB2D007B4345 /* RealStateMarket Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDE2EBE62C17AB2D007B4345 /* RealStateMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EBE52C17AB2D007B4345 /* RealStateMarketApp.swift */; };
+		CDE2EBE82C17AB2D007B4345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EBE72C17AB2D007B4345 /* ContentView.swift */; };
+		CDE2EBEA2C17AB2E007B4345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2EBE92C17AB2E007B4345 /* Assets.xcassets */; };
+		CDE2EBED2C17AB2E007B4345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2EBEC2C17AB2E007B4345 /* Preview Assets.xcassets */; };
+		CDE2EBF72C17AB2E007B4345 /* RealStateMarket_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EBF62C17AB2E007B4345 /* RealStateMarket_Watch_AppTests.swift */; };
+		CDE2EC012C17AB2E007B4345 /* RealStateMarket_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EC002C17AB2E007B4345 /* RealStateMarket_Watch_AppUITests.swift */; };
+		CDE2EC032C17AB2E007B4345 /* RealStateMarket_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EC022C17AB2E007B4345 /* RealStateMarket_Watch_AppUITestsLaunchTests.swift */; };
+		CDE2EC4E2C17B4F8007B4345 /* RealEstateAgentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EC4D2C17B4F8007B4345 /* RealEstateAgentView.swift */; };
+		CDE2EC542C185309007B4345 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EC532C185309007B4345 /* PropertyModel.swift */; };
+		CDE2EC632C186058007B4345 /* RealEstateMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2EC622C186058007B4345 /* RealEstateMapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE2EBE22C17AB2D007B4345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE2EBD42C17AB2C007B4345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE2EBDF2C17AB2D007B4345;
+			remoteInfo = "RealStateMarket Watch App";
+		};
+		CDE2EBF32C17AB2E007B4345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE2EBD42C17AB2C007B4345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE2EBDF2C17AB2D007B4345;
+			remoteInfo = "RealStateMarket Watch App";
+		};
+		CDE2EBFD2C17AB2E007B4345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE2EBD42C17AB2C007B4345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE2EBDF2C17AB2D007B4345;
+			remoteInfo = "RealStateMarket Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE2EC092C17AB2E007B4345 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDE2EBE12C17AB2D007B4345 /* RealStateMarket Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDE2EBDA2C17AB2C007B4345 /* RealStateMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealStateMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2EBE02C17AB2D007B4345 /* RealStateMarket Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealStateMarket Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2EBE52C17AB2D007B4345 /* RealStateMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealStateMarketApp.swift; sourceTree = "<group>"; };
+		CDE2EBE72C17AB2D007B4345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDE2EBE92C17AB2E007B4345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE2EBEC2C17AB2E007B4345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDE2EBF22C17AB2E007B4345 /* RealStateMarket Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealStateMarket Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2EBF62C17AB2E007B4345 /* RealStateMarket_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealStateMarket_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CDE2EBFC2C17AB2E007B4345 /* RealStateMarket Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealStateMarket Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2EC002C17AB2E007B4345 /* RealStateMarket_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealStateMarket_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CDE2EC022C17AB2E007B4345 /* RealStateMarket_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealStateMarket_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDE2EC4D2C17B4F8007B4345 /* RealEstateAgentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateAgentView.swift; sourceTree = "<group>"; };
+		CDE2EC532C185309007B4345 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
+		CDE2EC622C186058007B4345 /* RealEstateMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateMapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE2EBDD2C17AB2D007B4345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBEF2C17AB2E007B4345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBF92C17AB2E007B4345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE2EBD32C17AB2C007B4345 = {
+			isa = PBXGroup;
+			children = (
+				CDE2EBE42C17AB2D007B4345 /* RealStateMarket Watch App */,
+				CDE2EBF52C17AB2E007B4345 /* RealStateMarket Watch AppTests */,
+				CDE2EBFF2C17AB2E007B4345 /* RealStateMarket Watch AppUITests */,
+				CDE2EBDB2C17AB2C007B4345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE2EBDB2C17AB2C007B4345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EBDA2C17AB2C007B4345 /* RealStateMarket.app */,
+				CDE2EBE02C17AB2D007B4345 /* RealStateMarket Watch App.app */,
+				CDE2EBF22C17AB2E007B4345 /* RealStateMarket Watch AppTests.xctest */,
+				CDE2EBFC2C17AB2E007B4345 /* RealStateMarket Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE2EBE42C17AB2D007B4345 /* RealStateMarket Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EC4C2C17B48A007B4345 /* UIViews */,
+				CDE2EBE52C17AB2D007B4345 /* RealStateMarketApp.swift */,
+				CDE2EBE72C17AB2D007B4345 /* ContentView.swift */,
+				CDE2EBE92C17AB2E007B4345 /* Assets.xcassets */,
+				CDE2EBEB2C17AB2E007B4345 /* Preview Content */,
+			);
+			path = "RealStateMarket Watch App";
+			sourceTree = "<group>";
+		};
+		CDE2EBEB2C17AB2E007B4345 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EBEC2C17AB2E007B4345 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDE2EBF52C17AB2E007B4345 /* RealStateMarket Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EBF62C17AB2E007B4345 /* RealStateMarket_Watch_AppTests.swift */,
+			);
+			path = "RealStateMarket Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CDE2EBFF2C17AB2E007B4345 /* RealStateMarket Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EC002C17AB2E007B4345 /* RealStateMarket_Watch_AppUITests.swift */,
+				CDE2EC022C17AB2E007B4345 /* RealStateMarket_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "RealStateMarket Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		CDE2EC4C2C17B48A007B4345 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EC592C185535007B4345 /* Map */,
+				CDE2EC522C1852C6007B4345 /* Model */,
+				CDE2EC4D2C17B4F8007B4345 /* RealEstateAgentView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		CDE2EC522C1852C6007B4345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EC532C185309007B4345 /* PropertyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE2EC592C185535007B4345 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2EC622C186058007B4345 /* RealEstateMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE2EBD92C17AB2C007B4345 /* RealStateMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE2EC0A2C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket" */;
+			buildPhases = (
+				CDE2EBD82C17AB2C007B4345 /* Resources */,
+				CDE2EC092C17AB2E007B4345 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE2EBE32C17AB2D007B4345 /* PBXTargetDependency */,
+			);
+			name = RealStateMarket;
+			productName = RealStateMarket;
+			productReference = CDE2EBDA2C17AB2C007B4345 /* RealStateMarket.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CDE2EBDF2C17AB2D007B4345 /* RealStateMarket Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE2EC062C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket Watch App" */;
+			buildPhases = (
+				CDE2EBDC2C17AB2D007B4345 /* Sources */,
+				CDE2EBDD2C17AB2D007B4345 /* Frameworks */,
+				CDE2EBDE2C17AB2D007B4345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RealStateMarket Watch App";
+			packageProductDependencies = (
+			);
+			productName = "RealStateMarket Watch App";
+			productReference = CDE2EBE02C17AB2D007B4345 /* RealStateMarket Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE2EBF12C17AB2E007B4345 /* RealStateMarket Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE2EC0D2C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket Watch AppTests" */;
+			buildPhases = (
+				CDE2EBEE2C17AB2E007B4345 /* Sources */,
+				CDE2EBEF2C17AB2E007B4345 /* Frameworks */,
+				CDE2EBF02C17AB2E007B4345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE2EBF42C17AB2E007B4345 /* PBXTargetDependency */,
+			);
+			name = "RealStateMarket Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "RealStateMarket Watch AppTests";
+			productReference = CDE2EBF22C17AB2E007B4345 /* RealStateMarket Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE2EBFB2C17AB2E007B4345 /* RealStateMarket Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE2EC102C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket Watch AppUITests" */;
+			buildPhases = (
+				CDE2EBF82C17AB2E007B4345 /* Sources */,
+				CDE2EBF92C17AB2E007B4345 /* Frameworks */,
+				CDE2EBFA2C17AB2E007B4345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE2EBFE2C17AB2E007B4345 /* PBXTargetDependency */,
+			);
+			name = "RealStateMarket Watch AppUITests";
+			productName = "RealStateMarket Watch AppUITests";
+			productReference = CDE2EBFC2C17AB2E007B4345 /* RealStateMarket Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE2EBD42C17AB2C007B4345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CDE2EBD92C17AB2C007B4345 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CDE2EBDF2C17AB2D007B4345 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CDE2EBF12C17AB2E007B4345 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CDE2EBDF2C17AB2D007B4345;
+					};
+					CDE2EBFB2C17AB2E007B4345 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CDE2EBDF2C17AB2D007B4345;
+					};
+				};
+			};
+			buildConfigurationList = CDE2EBD72C17AB2C007B4345 /* Build configuration list for PBXProject "RealStateMarket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE2EBD32C17AB2C007B4345;
+			packageReferences = (
+			);
+			productRefGroup = CDE2EBDB2C17AB2C007B4345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE2EBD92C17AB2C007B4345 /* RealStateMarket */,
+				CDE2EBDF2C17AB2D007B4345 /* RealStateMarket Watch App */,
+				CDE2EBF12C17AB2E007B4345 /* RealStateMarket Watch AppTests */,
+				CDE2EBFB2C17AB2E007B4345 /* RealStateMarket Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE2EBD82C17AB2C007B4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBDE2C17AB2D007B4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2EBED2C17AB2E007B4345 /* Preview Assets.xcassets in Resources */,
+				CDE2EBEA2C17AB2E007B4345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBF02C17AB2E007B4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBFA2C17AB2E007B4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE2EBDC2C17AB2D007B4345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2EC542C185309007B4345 /* PropertyModel.swift in Sources */,
+				CDE2EC632C186058007B4345 /* RealEstateMapView.swift in Sources */,
+				CDE2EBE82C17AB2D007B4345 /* ContentView.swift in Sources */,
+				CDE2EC4E2C17B4F8007B4345 /* RealEstateAgentView.swift in Sources */,
+				CDE2EBE62C17AB2D007B4345 /* RealStateMarketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBEE2C17AB2E007B4345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2EBF72C17AB2E007B4345 /* RealStateMarket_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE2EBF82C17AB2E007B4345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE2EC032C17AB2E007B4345 /* RealStateMarket_Watch_AppUITestsLaunchTests.swift in Sources */,
+				CDE2EC012C17AB2E007B4345 /* RealStateMarket_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE2EBE32C17AB2D007B4345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE2EBDF2C17AB2D007B4345 /* RealStateMarket Watch App */;
+			targetProxy = CDE2EBE22C17AB2D007B4345 /* PBXContainerItemProxy */;
+		};
+		CDE2EBF42C17AB2E007B4345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE2EBDF2C17AB2D007B4345 /* RealStateMarket Watch App */;
+			targetProxy = CDE2EBF32C17AB2E007B4345 /* PBXContainerItemProxy */;
+		};
+		CDE2EBFE2C17AB2E007B4345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE2EBDF2C17AB2D007B4345 /* RealStateMarket Watch App */;
+			targetProxy = CDE2EBFD2C17AB2E007B4345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDE2EC042C17AB2E007B4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE2EC052C17AB2E007B4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CDE2EC072C17AB2E007B4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealStateMarket Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RealStateMarket;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = disira.watch.RealStateMarket.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		CDE2EC082C17AB2E007B4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealStateMarket Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RealStateMarket;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = disira.watch.RealStateMarket.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		CDE2EC0B2C17AB2E007B4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				INFOPLIST_KEY_CFBundleDisplayName = RealStateMarket;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = disira.watch.RealStateMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDE2EC0C2C17AB2E007B4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				INFOPLIST_KEY_CFBundleDisplayName = RealStateMarket;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = disira.watch.RealStateMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE2EC0E2C17AB2E007B4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disira.watch.RealStateMarket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealStateMarket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealStateMarket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		CDE2EC0F2C17AB2E007B4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disira.watch.RealStateMarket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealStateMarket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealStateMarket Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		CDE2EC112C17AB2E007B4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disira.watch.RealStateMarket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RealStateMarket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		CDE2EC122C17AB2E007B4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U73HTKJA6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disira.watch.RealStateMarket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RealStateMarket Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE2EBD72C17AB2C007B4345 /* Build configuration list for PBXProject "RealStateMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2EC042C17AB2E007B4345 /* Debug */,
+				CDE2EC052C17AB2E007B4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE2EC062C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2EC072C17AB2E007B4345 /* Debug */,
+				CDE2EC082C17AB2E007B4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE2EC0A2C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2EC0B2C17AB2E007B4345 /* Debug */,
+				CDE2EC0C2C17AB2E007B4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE2EC0D2C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2EC0E2C17AB2E007B4345 /* Debug */,
+				CDE2EC0F2C17AB2E007B4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE2EC102C17AB2E007B4345 /* Build configuration list for PBXNativeTarget "RealStateMarket Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE2EC112C17AB2E007B4345 /* Debug */,
+				CDE2EC122C17AB2E007B4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE2EBD42C17AB2C007B4345 /* Project object */;
+}
